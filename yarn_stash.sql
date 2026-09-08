@@ -108,6 +108,9 @@ INSERT INTO Yarn(ID, Brand_ID, Yarn_Name, Yarn_Weight, Yardage, Skein_Weight, Ne
 INSERT INTO Yarn(ID, Brand_ID, Yarn_Name, Yarn_Weight, Yardage, Skein_Weight, Needle_Size)
   VALUES(9, 1, 'Charisma', 5, 109, 3.5, 8.0);
 
+INSERT INTO Yarn(ID, Brand_ID, Yarn_Name, Yarn_Weight, Yardage, Skein_Weight, Needle_Size)
+  VALUES(11, 1, 'Bulky Twist Multi', 6, 130, 2.9, 6.5);
+
 -- Yarn Bee (Brand_ID 6)
 INSERT INTO Yarn(ID, Brand_ID, Yarn_Name, Yarn_Weight, Yardage, Skein_Weight, Needle_Size)
   VALUES(10, 6, 'Yarntopia', 2, 312, 4.0, 4.5);
@@ -245,3 +248,7 @@ INSERT INTO Stash(ID, YARN_ID, COLOR_NAME, DYE_LOT, QTY, SCRAP_WEIGHT, AVAILABLE
   VALUES(51, 10, 'ANCHOR', '73719544', 3, NULL, TRUE);
 INSERT INTO Stash(ID, YARN_ID, COLOR_NAME, DYE_LOT, QTY, SCRAP_WEIGHT, AVAILABLE)
   VALUES(52, 10, 'BLUSH', NULL, 3, NULL, FALSE);
+
+-- Bulky Twist Multi (YARN_ID 11)
+INSERT INTO Stash(ID, YARN_ID, COLOR_NAME, DYE_LOT, QTY, SCRAP_WEIGHT, AVAILABLE)
+  VALUES(53, 11, 'SAND DUNE', NULL, 6, NULL, TRUE);
